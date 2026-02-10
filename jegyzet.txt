@@ -1,0 +1,171 @@
+tesztelo keretrendszerek
+
+java        junit4, junit5, testNG
+javascript  qunit, mocha, jest, jasmineee
+.net core   xunit
+python      pytest, unit test 
+
+webes selemium, puppeteer, cypress 
+
+projekten bwlul twlwpitett parancs
+node_modules\bin: 
+npx mocha --version
+
+js nvesitett fuggveny:
+function fgnev() {}
+
+js nevtelen fuggveny:
+
+function() {}
+() => {}
+
+egyszeru mint egy pofon csak adni kell
+a boldogsag mezejen lepkednek
+
+import assert from 'assert' ha package.json"type": "module"
+package.json
+"dev:src": "npx esbuild src/*.js --outdir=public --bundle --watch",
+"build:src": "npx esbuild src/*.js --outdir=dist --bundle --minify",
+
+npm run build
+
+it.skip
+it.only
+
+cmd 
+node 
+.exit
+
+if (radius <= 0) {
+        throw new Error('Hiba! a sugár értéke 0 vagy kisebb')
+    }
+    if (height <= 0) {
+        throw new Error('Hiba! A magasság értéke 0 vagy kisebb!')
+    }
+teszteles gitrol:
+
+npm install
+(npm start)
+npm i --D mocha
+
+package.json
+"scripts": {
+    "test": "mocha"
+}
+
+npm test 
+
+js szabvany:
+    ecmascript | bongeszok              | import
+    commonjs   | szerveroldal node.js   | require()
+
+package.json
+{
+"type": "module"    
+}
+
+commonjsnel ki lehet hagyni a kiterjesztest
+
+tesztesetek calcsurface()
+122, 195         242995.9085698633
+10 000 000, 35   628320729832816.1
+30, 1            5843.362335677015
+30, 10000000     1884961247.0206523
+10 000 001, 35   hiba
+30, 10 000 001   hiba 
+0, 35            hiba 
+30, 0            hiba
+
+tesztesetek isgoodinput()
+35      true
+30      true 
+30.4    true 
+30a     false
+abc     false
+
+import { expect } from "chai";
+
+kovetelmenyek:
+szit.hu/int
+
+/*
+* File: toolsTest.js
+* Author: Dóra Boglárka
+* Copyright: 2026, Dóra Boglárka
+* Group: Sz I N
+* Date: 2026-02-03
+* Github: https://github.com/kalae1337
+* Licenc: MIT
+*/
+
+a csoda egy ilyen ablak formajaban erkezik
+
+| A oldal | B oldal | C oldal | Számitott térfogat |
+| --- | --- | --- | --- |
+| 1 | 2 | 3 | 6 |
+| 2 | 3 | 4 | 24 |
+| 3 | 4 | 5 | 60 |
+| 30 | 35 | 40 | 42000 |
+| 128 | 98 | 47 | 589568 |
+| 0 | 98 | 47 | 0 |
+
+0210
+
+ts teszteles
+
+npm i --D esbuild-register @types/mocha @types/chai mocha chai
+
+"test": "mocha --require esbuild-register test/**/*.spec.ts",
+
+
+/*
+* File: rectangleTest.js
+* Author: Dóra Boglárka
+* Copyright: 2026, Dóra Boglárka
+* Group: Sz I N
+* Date: 2026-02-03
+* Github: https://github.com/kalae1337
+* Licenc: MIT
+*/
+
+import { calculateVolume } from "../public/rectangle.js";
+
+import {expect} from "chai";
+
+describe('calculateVolume() teszt', () => {
+    it.only('1,2,3 bementre 6', () => {
+        expect(calculateVolume(1,2,3).to.equal(6))
+    })
+    it('2,3,4 bementre 24', () => {
+        expect(calculateVolume(2,3,4).to.equal(24))
+    })
+    it('3,4,5 bementre 60', () => {
+        expect(calculateVolume(3,4,5).to.equal(60))
+    })
+    it('30,35,40 bementre 42000', () => {
+        expect(calculateVolume(30,35,40).to.equal(42000))
+    })
+    it('127,98,47 bementre 589568', () => {
+        expect(calculateVolume(127,98,47).to.equal(589568))
+    })
+    it('0,98,47 bementre 0', () => {
+        expect(calculateVolume(0,98,47).to.equal(0))
+    })
+})
+
+
+numSides * Math.pow(sideLength, 2)) / (4 * Math.tan(Math.PI/numSides)
+
+
+tesztesetek:
+30 3
+135 30 
+0 30
+30 2
+30 0
+10 000 001 3
+30 10 000 001
+
+
+https://szit.hu/m/
+
