@@ -169,3 +169,41 @@ tesztesetek:
 
 https://szit.hu/m/
 
+java teszteles
+
+
+tesztelo keretrendszer
+	JUnit 4 
+	JUnit 5
+	TestNG*
+	kulso programozoi konyvtar
+		No build tools
+		Maven*
+		Gradle
+
+konzolos asztali alkalmazas
+bekeri egy haromszog alapjat es magassagat, kiirja a teruletet
+
+/triangle
+	Triangle.java
+	Solution.java
+
+programozoi konyvtar:
+central.sonatype.com
+testng - org.testng
+
+>>>pom.xml
+
+    <dependencies>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.12.0</version>
+        </dependency>
+    </dependencies>
+
+@Test annotáció
+
+npm init playwright@latest
+
+https://szit.hu/doku.php?id=oktatas:web:playwright
